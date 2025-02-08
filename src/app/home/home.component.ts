@@ -10,7 +10,7 @@ import { CounterComponent } from '../components/counter/counter.component';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent {
-  homemessage = signal('Hello world  => From home component.ts');
+  homemessage = signal('Home page');
   keyUpHandler (event:KeyboardEvent){
     console.log(`user pressed the ${event.key} key`);
   }
